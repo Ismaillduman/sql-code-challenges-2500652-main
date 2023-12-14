@@ -4,3 +4,4 @@
 -- Sortieren Sie die Liste alphabetisch nach den Nachnamen.
 
 
+SELECT Vorname, Nachname, Email,Adresse from Kunden ORDER BY Nachname;
