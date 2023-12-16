@@ -9,3 +9,8 @@ WHERE KundenID=26;
 
 SELECT Adresse, Stadt, State FROM Kunden
 Where KundenID=26;
+
+UPDATE Kunden SET Adresse='Konrad Adenauer'
+WHERE KundenID=26;
+
+SELECT Adresse FROM Kunden WHERE KundenID=26;

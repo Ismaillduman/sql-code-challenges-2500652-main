@@ -6,7 +6,7 @@
 SELECT * FROM Reservierung
 JOIN Kunden ON Reservierung.KundenID = Kunden.KundenID
 WHERE Kunden.Vorname = 'Norby'
-AND Reservierung.Datum > '2022-07-24';
+AND Reservierung.Datum > '2022-05-23';
 
 DELETE FROM Reservierung WHERE ReservierungsID = 2000;
 
