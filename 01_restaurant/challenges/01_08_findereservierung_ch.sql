@@ -4,3 +4,8 @@
 -- Der Name hat unter anderem folgenede Variationen:
 -- Stevensen, Stephensen, Stevenson, Stephenson, Stuyvesant
 -- Heute ist der 14.Juni.
+
+SELECT * FROM Reservierung JOIN Kunden ON Kunden.KundenID = Reservierung.KundenID
+WHERE Kunden.Nachname LIKE 'St%'
+AND PartyGroesse=4
+ORDER BY Reservierung.Datum DESC; 
